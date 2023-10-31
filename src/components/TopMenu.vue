@@ -22,7 +22,8 @@ export default {
         </div>
         <div>
             <ul>
-                <li><a href="href" class="active">首页</a></li>
+                <!-- class="active" -->
+                <li><a href="href">首页</a></li>
                 <li><a href="href">生鲜</a></li>
                 <li><a href="href">美食</a></li>
                 <li><a href="href">炊具</a></li>

@@ -14,7 +14,8 @@ export default {
             <!-- 左侧导航菜单 -->
             <div class="left">
                 <ul>
-                    <li class="menuChecked">
+                    <!-- class="menuChecked" -->
+                    <li>
                         <div>
                             <a href="#" class="oneClass">生鲜</a>
                             <a href="#">水果</a>
@@ -212,6 +213,7 @@ export default {
     height: 50px;
     line-height: 50px;
     padding-left: 30px;
+    cursor: pointer;
 }
 
 .left ul li:hover {

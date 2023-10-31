@@ -3,6 +3,103 @@
     width: 1240px;
 }
 
-a {
+a,
+h1,
+h2,
+h3,
+p {
     color: #333;
+    text-decoration: none;
+}
+
+/* 标题区域 */
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0 38px 0;
+    /* background: pink; */
+    height: 42px;
+    line-height: 42px;
+}
+
+.title .left {
+    display: flex;
+}
+
+.title .left h3 {
+    display: inline-block;
+    font-size: 28px;
+    margin-right: 34px;
+    font-weight: 400;
+}
+
+.title .left p {
+    font-size: 16px;
+    color: #999999;
+}
+
+/* 查看全部 */
+.title .right a {
+    margin-right: 22px;
+    font-size: 14px;
+    color: #999999;
+}
+
+/* 字体箭头 */
+.title .right i {
+    font-size: 13px;
+}
+
+/* 商品列表 */
+.product ul {
+    display: flex;
+}
+
+.product ul li {
+    width: 304px;
+    height: 408px;
+    background: #f0f9f4;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.product ul li:last-child {
+    margin-right: 0;
+}
+
+.product ul li a {
+    display: block;
+    height: 408px;
+}
+
+.product ul li img {
+    width: 304px;
+    height: 305px;
+    vertical-align: middle;
+}
+
+/* 商品标题，价格 */
+.product ul li a div {
+    height: 100px;
+    padding-top: 20px;
+}
+
+.product ul li h4 {
+    height: 20px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.product ul li span {
+    font-size: 17px;
+    margin-right: 3px;
+    color: #9a2e1f;
+}
+
+.product ul li i {
+    font-size: 23px;
+    font-style: normal;
+    color: #9a2e1f;
+    font-weight: 700;
 }

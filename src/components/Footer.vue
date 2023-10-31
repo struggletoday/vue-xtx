@@ -61,7 +61,11 @@ export default {
                     </dl>
                     <dl>
                         <dt>服务热线</dt>
-                        <dd><a href="#">在线客服</a></dd>
+                        <dd>
+                            <a href="#">在线客服
+                                <i class="iconfont icon-kefu"></i>
+                            </a>
+                        </dd>
                         <dd><a href="#">客服电话 400-888-8888</a></dd>
                         <dd><a href="#">工作时间 周一至周六 8:00-22:00</a></dd>
                     </dl>
@@ -175,6 +179,11 @@ export default {
 
 .help .left a:hover {
     color: #27ba9b;
+}
+
+.help .left a i {
+    color: #27ba9b;
+    font-size: 20px;
 }
 
 /* 二维码区域 */
