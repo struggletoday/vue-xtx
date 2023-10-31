@@ -1,0 +1,5 @@
+node_modules
+.DS_Store
+
+# 屏蔽需要上传的图片
+/src/uploads
